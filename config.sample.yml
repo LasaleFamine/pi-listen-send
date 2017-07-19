@@ -1,0 +1,10 @@
+server:
+  username: loginUsername
+  password: 'loginPassword'
+  smpt_server: yourSMTPserver
+mail:
+  subject: Email subject
+  sender: loginUsernameIfEmail
+  sender_name: senderName
+  to: sendToEmail
+  text: Simple text of the email
