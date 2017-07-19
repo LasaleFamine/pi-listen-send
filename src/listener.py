@@ -22,7 +22,7 @@ def handler_listen(channel):
 			print ('An error occured')
 
 def main():
-	pi_listen(pin, handler_listen)
+	pi_listen(handler_listen)
 
 	while True:
 			pass
