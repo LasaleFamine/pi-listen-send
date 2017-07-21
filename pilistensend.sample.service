@@ -1,0 +1,12 @@
+[Service]
+ExecStart=/usr/bin/python /home/pi/pi-listen-send/src/listener.py
+WorkingDirectory=/home/pi/pi-listen-send/
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=pilistensend
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target
