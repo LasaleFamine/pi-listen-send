@@ -9,7 +9,7 @@ def send(config):
 	query_string = urllib.urlencode({ 'recipient' : recipient, 'message' : message})
 	
 	try:
-		res = urllib2.urlopen(api_url + '&' query_string).read()
+		res = urllib2.urlopen(api_url + '&' + query_string).read()
 	except: 
 		return False
 	finally:
