@@ -10,5 +10,10 @@ mail:
   to: sendToEmail
   text: Simple text of the email
 
+sms:
+  api_url: "UrlApiWithCredentials"
+  to: "RecipientWithRecipientKey"
+  message: "MessageWithMessageKey"
+
 raspberry:
   pin: 7
